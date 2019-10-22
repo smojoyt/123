@@ -72,6 +72,7 @@ span{
 .logoleft {
   vertical-align: middle;
   height: 35px;
+  margin-right:10px;
 }
 .lefttext {
   color: white;
@@ -134,7 +135,7 @@ span{
 .stats {
   overflow: hidden;
   margin: auto;
-  height: 100%;
+  height: auto;
   width: 80%;
   font-size: 13px;
   font-weight: 400;
@@ -181,13 +182,27 @@ span{
   width: 13%;
 }
 
+.container2 {
+  display: inline-block;
+  cursor: pointer;
+}
 
-hr {
-  height: 0.15rem;
-  width: 17%;
-  margin-left: 4.45%;
-  background: white;
-  border: none;
-  transition: 0.3s ease-in-out;
-  box-shadow: 0 0 15px white;
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
