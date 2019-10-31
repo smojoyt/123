@@ -73,6 +73,7 @@ body {
 }
 .grid-container1 {
   display: grid;
+  display: none;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
   padding: 10px;
