@@ -1,0 +1,36 @@
+.page1 {
+  vertical-align: middle;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+  margin: 200px auto auto auto;
+}
+
+.item2,
+.item1 {
+  font-size: 100px;
+  color: white;
+  margin: auto;
+  width: 100%;
+  font-family: montserrat_semibold, sans-serif;
+}
+
+.bottom {
+  text-align: left;
+}
+.LogoM {
+  float: right;
+  width: 400px;
+}
+.LogoSG {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  width: auto;
+}
+.LogoS {
+  width: 65px;
+  margin: 5px;
+}
