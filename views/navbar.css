@@ -23,7 +23,7 @@ span{
   font-size: 16px;
   font-family: "lato", sans-serif;
   font-weight: 300;
-
+  cursor: pointer;
   font-weight: 600;
   transition: 0.4s;
 }
@@ -34,8 +34,8 @@ span{
   flex-direction: row;
   height: auto;
   overflow: hidden;
+  margin: auto;
   width: 80%;
-  margin:auto;
   padding-top: 20px;
 }
 .mnb li {
@@ -65,21 +65,19 @@ span{
   background-color: red;
 }
 
-.leftleft, .navtxt {
+.leftleft {
   display: block;
   width: auto;
 }
-.logoleft, .navimg {
+.logoleft {
   vertical-align: middle;
   height: 35px;
-  cursor:pointer;
 }
 .lefttext {
   color: white;
   font-size: 30px;
   font-family: montserrat;
   font-weight: 800;
-  text-align:center;
   vertical-align: middle;
 }
 .leftmiddle {
@@ -136,6 +134,7 @@ span{
 .stats {
   overflow: hidden;
   margin: auto;
+  height: 100%;
   width: 80%;
   font-size: 13px;
   font-weight: 400;
