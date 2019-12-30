@@ -1,0 +1,32 @@
+.footerlinks {
+  display:none;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  transition: 0.4s;
+  padding-bottom: 6px;
+  text-align: center;
+}
+.footerlinks:hover {
+  letter-spacing: 0.25em;
+  transition: 0.3s ease 0s;
+}
+.footerlinks:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.footerlinks:hover:after {
+  width: 100%;
+  left: 0;
+  box-shadow: 0 0 10px white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}

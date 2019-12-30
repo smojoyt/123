@@ -1,16 +1,27 @@
-Perspective Page View Navigation
-=========
+Welcome to Glitch
+=================
 
-Some effects for a perspective page view navigation where the page itself gets pushed away in 3D to reveal a menu or other items.
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-[Article on Codrops](http://tympanus.net/codrops/?p=17915)
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
-[Demo](http://tympanus.net/Development/PerspectivePageViewNavigation/)
+Find out more [about Glitch](https://glitch.com/about).
 
-Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is".
 
-Read more here: [License](http://tympanus.net/codrops/licensing/)
+Your Project
+------------
 
-Icons used in this demo are from the [Typicons set by Stephen Hutchings](http://typicons.com/) and they are licensed under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+On the front-end,
+- edit `public/client.js`, `public/style.css` and `views/index.html`
+- drag in `assets`, like images or music, to add them to your project
 
-[© Codrops 2013](http://www.codrops.com)
+On the back-end,
+- your app starts at `server.js`
+- add frameworks and packages in `package.json`
+- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+
+
+Made by [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
