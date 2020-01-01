@@ -1,8 +1,15 @@
+
+::-webkit-scrollbar-thumb {
+    background: #98c565;
+    border: 1px solid #547c52;
+    border-radius: 20px;
+}
+
 .perspective:{
 height:auto;
 }
 .container{
-   background-image: url("https://cdn.glitch.com/99e42c9f-62ed-4bbd-9d7e-a81971a0b273%2FNEWBLUR.jpg?v=1576868477268");
+   background-image: url("https://cdn.glitch.com/99e42c9f-62ed-4bbd-9d7e-a81971a0b273%2FNEWBLUR2.jpg?v=1576868511914");
     background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -66,7 +73,14 @@ height:auto;
   text-transform: none;
   line-height:22px;
 }
-
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item2 {
+  padding: 20px;
+}
 
 
 .grid-container {
@@ -89,11 +103,11 @@ height:auto;
   transition:0.5s;
   margin:20px;
   background-color: rgba(0,0,0,.25);
-  border: solid 1px #9CDBFC;
+  border: solid 1px #98c565;
 }
 .grid-item:hover{
   transition:0.5s;
-  background-color:#52627C;
+  background-color:#547c52;
 box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.4);
 }
 
@@ -115,12 +129,18 @@ float:left;
   display:inline-block;
   width:100%;
 }
+.serverlogo{
+width:70%;
+  margin:auto;
+}
 .gridmiddle{
   margin:auto;
   text-align:center;
   display:inline-block;
   float:left;
+  padding-bottom:20px;
   color:white;
+  width:100%;
   font-size:15px;
   font-family:montserrat;
   font-weight:300;
@@ -215,12 +235,17 @@ float:left;
 .topicbox{
   padding:5px;
   display:inline-block;
+  font-size:13px;
+  font-family:comfortaa;
 }
 .Topic{
   font-weight:600;
 }
 .Topic, .TopicDetails{
   float:left;
+}
+.TopicDetails{
+font-weight:300;
 }
 .PrizeList{
 float:left;
@@ -235,18 +260,32 @@ float:left;
   text-align:center;
 }
 .joineventbutton {
-  position: relative;
-  color: white;
-  padding: 13px 22px;
-  font-size: 20px;
-  font-family:montserrat_semibold,sans-serif;
-  font-weight:600;
-  letter-spacing:.1em;
-  transition: 0.4s;
+  letter-spacing: 0.15em;
+  transition: 0.3s ease 0s;
 }
 .joineventbutton:hover {
   letter-spacing: 0.25em;
   transition: 0.3s ease 0s;
+}
+.joineventbutton {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  cursor: pointer;
+  width:auto;
+  color: white;
+  padding: 13px 22px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family:montserrat_semibold,sans-serif;
+  margin:auto;
+  cursor:pointer;
+  font-weight:600;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  width:auto;
 }
 .joineventbutton:after {
   background: none repeat scroll 0 0 transparent;
@@ -265,7 +304,12 @@ float:left;
   left: 0;
   box-shadow: 0 0 10px white;
 }
-
+.joineventbutton {
+  font-family: montserrat;
+  color: white;
+  font-weight: 600;
+  font-size:20px;
+}
 .PageBottom{
   overflow:hidden;
   margin:auto;
